@@ -111,4 +111,3 @@ func checkcode(res *http.Response) {
 func cleanString(text string) string {
 	return strings.Join(strings.Fields(strings.TrimSpace(text)), " ")
 }
-func 
